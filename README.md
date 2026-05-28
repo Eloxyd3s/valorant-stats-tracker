@@ -39,8 +39,12 @@ A real-time in-game stats overlay for Valorant that displays your performance me
 - 100MB disk space
 
 ## Installation
-
 ### 1. Clone the Repository
-```bash
+```
 git clone https://github.com/Eloxyd3s/valorant-stats-tracker.git
 cd valorant-stats-tracker
+```
+### 2. Rune the command in the Repository
+```
+py -3.11 -m PyInstaller --onefile main.py
+```
